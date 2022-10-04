@@ -29,6 +29,8 @@
 
   --radius-1: 0.25rem;
   --container: 45rem;
+
+  --font-family:'Inter', sans-serif;
 }
 
 body {
@@ -44,3 +46,17 @@ body {
   padding: 0 1rem;
   margin: 0 auto;
 }
+
+
+body.dark-mode {
+  background-color: black;
+  color: var(--color-white-fixed);
+}
+
+
+img{
+  width: 100%;
+}
+
+
+

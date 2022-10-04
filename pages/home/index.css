@@ -1,1 +1,138 @@
-/* Desenvolva sua estilização aqui ... */
+.titulo{
+display: flex;
+justify-content: space-between;
+margin: 60px 0;
+font-family: var(--font-family);
+font-size: 28px;
+font-weight: 600;
+line-height: 34px;
+text-align: left;
+align-items: center;
+color: var(--color-grey-1);
+}
+
+.picture{
+    height: 60px;
+    display: none;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+.containerFiltroValor{
+    display: flex;
+    justify-content: space-between;  
+    font-family: var(--font-family);
+    margin: 27px 0;
+}
+
+
+.tituloPreco{
+font-family: var(--font-family);
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+text-align: left;
+}
+
+.Preco{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    
+    }
+
+
+.textH3{
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+
+.tituloAlbums{
+margin-bottom: 57px;
+font-family: var(--font-family);
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+color: var(--color-grey-1);
+width: 100%;
+}
+
+.containerCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    height: 260px;
+    width: 308px;
+    margin: 0 0 35px 0;
+    display: flex;
+    flex-direction: column;
+}
+  
+picture{
+    height: 113px;
+    width: 100%;
+}
+
+.fotoCard{
+  width: 100%;
+}
+
+.cardText{
+    background-color: var(--color-grey-8);
+    padding: 20px 16px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textCard{
+margin: 0 20px 20px 0;  
+color: var(--color-grey-2);
+font-family: var(--font-family);
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+text-align: left;
+
+}
+
+.cardTitle{
+color: var(--color-grey-1);
+font-family:var(--font-family);
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+text-align: left;
+margin-bottom: 25px;
+width: 100%;
+}
+
+.margin{
+    margin-right: 140px;
+}
+
+.containerButtonCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.valor{
+color: var(--color-grey-1);
+font-family: var(--font-family);
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+text-align: left;
+ 
+}

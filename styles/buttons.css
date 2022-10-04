@@ -1,0 +1,35 @@
+button{
+    cursor: pointer;
+}
+
+
+.btnEstiloMusical{
+    height: 32px;
+    width: auto;
+    border-radius: 4px;
+    padding: 0 8px;
+    border: solid 1px var(--color-white-fixed);
+    background-color: var(--color-grey-8);
+    margin: 0 30px 30px 0 ;
+    cursor: pointer;
+    }
+    
+    .fundo{
+        background-color: var(--color-grey-1);
+        color: var(--color-grey-8);
+    }
+
+    
+.btnComprar{
+    height: 32px;
+    width: 75px;
+    border-radius: 4px;
+    padding: 0px 8px;
+    color: var(--color-grey-2);
+    background-color: var(--color-grey-7);
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 500;
+    border: solid 1px var(--color-white-fixed);
+    }
+    
