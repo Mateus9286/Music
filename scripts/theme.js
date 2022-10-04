@@ -1,7 +1,7 @@
 const button = document.querySelector("img");
 const body = document.body;
 const theme = "dark-mode";
-const themeButtonText = ["../../assets/img/sun.png","../../assets/img/moon.png"];
+const themeButtonText = ["./assets/img/sun.png","./assets/img/moon.png"];
 let darkMode;
 
 button.addEventListener("click", themeChange);
