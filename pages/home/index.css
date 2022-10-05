@@ -8,7 +8,7 @@ font-weight: 600;
 line-height: 34px;
 text-align: left;
 align-items: center;
-color: var(--color-grey-1);
+
 }
 
 .picture{
@@ -58,7 +58,6 @@ font-family: var(--font-family);
 font-size: 16px;
 font-weight: 600;
 line-height: 19px;
-color: var(--color-grey-1);
 width: 100%;
 }
 
